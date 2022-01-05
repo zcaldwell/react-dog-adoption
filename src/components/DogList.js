@@ -6,7 +6,7 @@ export default function DogList({ dogs }) {
   return (
     <div className="card-container">
       {dogs.map((dog) => (
-        <Link key={dog.id}>
+        <Link key={dog.id} to={`/dogs/${dog.id}`}>
           <DogCard key={dog.dogs} {...dog} />
         </Link>
       ))}
