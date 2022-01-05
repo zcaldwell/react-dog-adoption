@@ -1,14 +1,23 @@
 import React from 'react';
+import '../styles/Dogdetail.css';
 
-export default function DogDetail({ dog }) {
+export default function DogDetail({ age, name, image, breed, bio }) {
+  const dogAge = () => {
+    if (age === 0) {
+      return 'a less than a year';
+    } else {
+      return `a ${age} year`;
+    }
+  };
+
   return (
-    <div>
-      <h1>{dog.name}</h1>
-      <img src={dog.image} />
+    <div className="container">
+      <h1>{name}</h1>
+      <img src={image} className="detail-image" />
       <p>
-        {dog.name} is a(n) {dog.age} year old {dog.breed}
+        {name} is {dogAge()} old {breed}
       </p>
-      <p>{dog.bio}</p>
+      <p>{bio}</p>
     </div>
   );
 }

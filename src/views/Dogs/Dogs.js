@@ -5,14 +5,18 @@ import DogList from '../../components/DogList';
 
 export default function Pets() {
   const [dogs, setDogs] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetchDogs();
       setDogs(data);
+      setLoading(false);
     };
     fetchData();
   }, []);
+
+  if (loading) return <h1>All Dogs Loading!</h1>;
 
   return (
     <div>
