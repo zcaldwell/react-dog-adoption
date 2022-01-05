@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dog should display dog details 1`] = `
+<div>
+  <div>
+    <div
+      class="container"
+    >
+      <h1>
+        Amely
+      </h1>
+      <img
+        class="detail-image"
+        src="https://placedog.net/500?id=12"
+      />
+      <p>
+        Amely
+         is 
+        a less than a year
+         old 
+        Rottweiler
+      </p>
+      <p>
+        Highly energetic - loves long walks and tug of war. Expect he'll grow to be a lot bigger than a teacup.
+      </p>
+    </div>
+  </div>
+</div>
+`;
