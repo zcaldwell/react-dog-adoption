@@ -10,13 +10,14 @@ exports[`Dogs should display all dogs 1`] = `
         href="/dogs/3"
       >
         <div
-          class="pokecard"
+          class="dogcard"
         >
           <h1>
             Meet 
             Althea
           </h1>
           <img
+            class="card-image"
             src="https://placedog.net/500?id=10"
           />
           <p>
@@ -32,13 +33,14 @@ exports[`Dogs should display all dogs 1`] = `
         href="/dogs/2"
       >
         <div
-          class="pokecard"
+          class="dogcard"
         >
           <h1>
             Meet 
             Amely
           </h1>
           <img
+            class="card-image"
             src="https://placedog.net/500?id=12"
           />
           <p>
@@ -54,13 +56,14 @@ exports[`Dogs should display all dogs 1`] = `
         href="/dogs/10"
       >
         <div
-          class="pokecard"
+          class="dogcard"
         >
           <h1>
             Meet 
             Barton
           </h1>
           <img
+            class="card-image"
             src="https://placedog.net/500?id=6"
           />
           <p>
@@ -76,13 +79,14 @@ exports[`Dogs should display all dogs 1`] = `
         href="/dogs/8"
       >
         <div
-          class="pokecard"
+          class="dogcard"
         >
           <h1>
             Meet 
             Eileen
           </h1>
           <img
+            class="card-image"
             src="https://placedog.net/500?id=4"
           />
           <p>
@@ -98,13 +102,14 @@ exports[`Dogs should display all dogs 1`] = `
         href="/dogs/14"
       >
         <div
-          class="pokecard"
+          class="dogcard"
         >
           <h1>
             Meet 
             Eyes
           </h1>
           <img
+            class="card-image"
             src="https://placedog.net/500?id=22"
           />
           <p>
@@ -120,13 +125,14 @@ exports[`Dogs should display all dogs 1`] = `
         href="/dogs/4"
       >
         <div
-          class="pokecard"
+          class="dogcard"
         >
           <h1>
             Meet 
             Franny
           </h1>
           <img
+            class="card-image"
             src="https://placedog.net/500?id=51"
           />
           <p>
@@ -142,13 +148,14 @@ exports[`Dogs should display all dogs 1`] = `
         href="/dogs/16"
       >
         <div
-          class="pokecard"
+          class="dogcard"
         >
           <h1>
             Meet 
             Ginny
           </h1>
           <img
+            class="card-image"
             src="https://images.pexels.com/photos/5886866/pexels-photo-5886866.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
           />
           <p>
@@ -164,13 +171,14 @@ exports[`Dogs should display all dogs 1`] = `
         href="/dogs/11"
       >
         <div
-          class="pokecard"
+          class="dogcard"
         >
           <h1>
             Meet 
             Happy
           </h1>
           <img
+            class="card-image"
             src="https://placedog.net/500?id=21"
           />
           <p>
@@ -186,13 +194,14 @@ exports[`Dogs should display all dogs 1`] = `
         href="/dogs/9"
       >
         <div
-          class="pokecard"
+          class="dogcard"
         >
           <h1>
             Meet 
             Liliana
           </h1>
           <img
+            class="card-image"
             src="https://placedog.net/500?id=5"
           />
           <p>
@@ -208,13 +217,14 @@ exports[`Dogs should display all dogs 1`] = `
         href="/dogs/5"
       >
         <div
-          class="pokecard"
+          class="dogcard"
         >
           <h1>
             Meet 
             Melba
           </h1>
           <img
+            class="card-image"
             src="https://placedog.net/500?id=8"
           />
           <p>
@@ -230,13 +240,14 @@ exports[`Dogs should display all dogs 1`] = `
         href="/dogs/17"
       >
         <div
-          class="pokecard"
+          class="dogcard"
         >
           <h1>
             Meet 
             Mrs. Weasley
           </h1>
           <img
+            class="card-image"
             src="https://placedog.net/1000/563?id=3"
           />
           <p>
@@ -252,13 +263,14 @@ exports[`Dogs should display all dogs 1`] = `
         href="/dogs/15"
       >
         <div
-          class="pokecard"
+          class="dogcard"
         >
           <h1>
             Meet 
             Pugilicious
           </h1>
           <img
+            class="card-image"
             src="https://placedog.net/500?id=26"
           />
           <p>
@@ -274,13 +286,14 @@ exports[`Dogs should display all dogs 1`] = `
         href="/dogs/6"
       >
         <div
-          class="pokecard"
+          class="dogcard"
         >
           <h1>
             Meet 
             Ron
           </h1>
           <img
+            class="card-image"
             src="https://images.pexels.com/photos/6246667/pexels-photo-6246667.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
           />
           <p>

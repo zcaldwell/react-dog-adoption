@@ -3,18 +3,21 @@
 exports[`dog should display dog details 1`] = `
 <div>
   <div>
-    <div>
+    <div
+      class="container"
+    >
       <h1>
         Amely
       </h1>
       <img
+        class="detail-image"
         src="https://placedog.net/500?id=12"
       />
       <p>
         Amely
-         is a(n) 
-        0
-         year old 
+         is 
+        a less than a year
+         old 
         Rottweiler
       </p>
       <p>
