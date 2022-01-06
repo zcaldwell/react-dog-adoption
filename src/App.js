@@ -3,6 +3,7 @@ import Dog from './views/Dog/Dog';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
+import Edit from './views/Edit/Edit';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Switch>
+          <Route path="/Dogs/:id/edit" component={Edit} />
           <Route path="/Dogs/:id" component={Dog} />
           <Route path="/Dogs" component={Dogs} />
         </Switch>
