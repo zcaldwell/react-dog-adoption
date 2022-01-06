@@ -1,11 +1,12 @@
 import React from 'react';
 import DogForm from '../../components/DogForm';
 import { useState, useEffect } from 'react';
-import { fetchDogById } from '../../services/dogs';
-import { useParams } from 'react-router-dom';
+import { fetchDogById, updateDog } from '../../services/dogs';
+import { useParams, useHistory } from 'react-router-dom';
 
 export default function Edit() {
   const [dog, setDog] = useState({});
+  const history = useHistory();
   const params = useParams();
 
   useEffect(() => {
@@ -15,17 +16,21 @@ export default function Edit() {
     };
     fetchData();
   }, [params.id]);
-  const updateDog = (key, value) => {
+
+  const updateDogForm = (key, value) => {
     dog[key] = value;
     setDog({ ...dog });
   };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    updateDog(dog);
+    await updateDog(dog);
+    history.push(`/dogs/${params.id}`);
   };
+
   return (
     <div>
-      <DogForm {...dog} handleSubmit={handleSubmit} />
+      <DogForm {...dog} handleSubmit={handleSubmit} updateDogForm={updateDogForm} />
     </div>
   );
 }
