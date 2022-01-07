@@ -1,28 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`dog should display dog details 1`] = `
+exports[`Edit should display Edit details 1`] = `
 <div>
   <div>
     <div
       class="container"
     >
       <h1>
-        Amely
+        Zach
       </h1>
       <img
         class="detail-image"
-        src="https://placedog.net/500?id=12"
+        src="https://placedog.net/1000/563?id=160"
       />
       <p>
-        Amely
+        Zach
          is 
-        a less than a year
+        a 10 year
          old 
-        Rottweiler
+        Cocker-spaniel
       </p>
       <p>
-        Highly energetic - loves long walks and tug of war. Expect he'll grow to be a lot bigger than a teacup.
+        Yennefer hasn't aged a day and is as quick as ever. Loses things and will spend all day looking for it. 
       </p>
+      <div>
+        <button>
+          Edit
+        </button>
+        <button>
+          Delete
+        </button>
+      </div>
     </div>
   </div>
 </div>
