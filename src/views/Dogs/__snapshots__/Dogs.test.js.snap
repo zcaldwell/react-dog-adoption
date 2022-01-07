@@ -46,9 +46,32 @@ exports[`Dogs should display all dogs 1`] = `
           <p>
             Geralt
              is a(n) 
-            8
+            7
              year old 
             Husky
+          </p>
+        </div>
+      </a>
+      <a
+        href="/dogs/4"
+      >
+        <div
+          class="dogcard"
+        >
+          <h1>
+            Meet 
+            Jaskier
+          </h1>
+          <img
+            class="card-image"
+            src="https://placedog.net/1000/563?id=118"
+          />
+          <p>
+            Jaskier
+             is a(n) 
+            6
+             year old 
+            German Shepard
           </p>
         </div>
       </a>
@@ -72,29 +95,6 @@ exports[`Dogs should display all dogs 1`] = `
             10
              year old 
             Cocker-spaniel
-          </p>
-        </div>
-      </a>
-      <a
-        href="/dogs/4"
-      >
-        <div
-          class="dogcard"
-        >
-          <h1>
-            Meet 
-            Zach
-          </h1>
-          <img
-            class="card-image"
-            src="https://placedog.net/1000/563?id=118"
-          />
-          <p>
-            Zach
-             is a(n) 
-            6
-             year old 
-            German Shepard
           </p>
         </div>
       </a>

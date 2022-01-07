@@ -53,7 +53,7 @@ export default function DogForm({ name, bio, image, age, breed, handleSubmit, up
               value={breed}
               type="text"
               onChange={(e) => {
-                updateDogForm('text', e.target.value);
+                updateDogForm('breed', e.target.value);
               }}
             />
           </div>
