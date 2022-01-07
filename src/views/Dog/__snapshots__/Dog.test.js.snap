@@ -7,14 +7,14 @@ exports[`Edit should display Edit details 1`] = `
       class="container"
     >
       <h1>
-        Yennefer
+        Zach
       </h1>
       <img
         class="detail-image"
         src="https://placedog.net/1000/563?id=160"
       />
       <p>
-        Yennefer
+        Zach
          is 
         a 10 year
          old 

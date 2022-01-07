@@ -46,7 +46,7 @@ exports[`Dogs should display all dogs 1`] = `
           <p>
             Geralt
              is a(n) 
-            7
+            6
              year old 
             Husky
           </p>
@@ -83,14 +83,14 @@ exports[`Dogs should display all dogs 1`] = `
         >
           <h1>
             Meet 
-            Yennefer
+            Zach
           </h1>
           <img
             class="card-image"
             src="https://placedog.net/1000/563?id=160"
           />
           <p>
-            Yennefer
+            Zach
              is a(n) 
             10
              year old 
