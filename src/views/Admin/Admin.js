@@ -15,8 +15,13 @@ export default function Admin() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await addDog(dog);
-    history.push(`/Dogs/`);
+    try {
+      await addDog(dog);
+      alert('Success!');
+      history.push(`/Dogs/`);
+    } catch {
+      alert('failed');
+    }
   };
 
   return (

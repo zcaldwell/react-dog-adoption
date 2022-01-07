@@ -15,8 +15,8 @@ export async function updateDog(dog) {
   return checkError(resp);
 }
 
-export async function deleteDog(dog) {
-  const resp = await client.from('dogs').delete().eq('id', dog.id);
+export async function deleteDog(id) {
+  const resp = await client.from('dogs').delete().match({ id });
   return checkError(resp);
 }
 

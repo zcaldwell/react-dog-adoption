@@ -14,18 +14,41 @@ exports[`Dogs should display all dogs 1`] = `
         >
           <h1>
             Meet 
-            Althea
+            Ciri
           </h1>
           <img
             class="card-image"
-            src="https://placedog.net/500?id=10"
+            src="https://placedog.net/1000/563?id=186"
           />
           <p>
-            Althea
+            Ciri
              is a(n) 
             1
              year old 
-            German Short-haired Pointer
+            Shepard
+          </p>
+        </div>
+      </a>
+      <a
+        href="/dogs/1"
+      >
+        <div
+          class="dogcard"
+        >
+          <h1>
+            Meet 
+            Geralt
+          </h1>
+          <img
+            class="card-image"
+            src="https://placedog.net/1000/563?id=77"
+          />
+          <p>
+            Geralt
+             is a(n) 
+            8
+             year old 
+            Husky
           </p>
         </div>
       </a>
@@ -37,87 +60,18 @@ exports[`Dogs should display all dogs 1`] = `
         >
           <h1>
             Meet 
-            Amely
+            Yennefer
           </h1>
           <img
             class="card-image"
-            src="https://placedog.net/500?id=12"
+            src="https://placedog.net/1000/563?id=160"
           />
           <p>
-            Amely
+            Yennefer
              is a(n) 
-            0
+            10
              year old 
-            Rottweiler
-          </p>
-        </div>
-      </a>
-      <a
-        href="/dogs/10"
-      >
-        <div
-          class="dogcard"
-        >
-          <h1>
-            Meet 
-            Barton
-          </h1>
-          <img
-            class="card-image"
-            src="https://placedog.net/500?id=6"
-          />
-          <p>
-            Barton
-             is a(n) 
-            1
-             year old 
-            Weimaraner
-          </p>
-        </div>
-      </a>
-      <a
-        href="/dogs/8"
-      >
-        <div
-          class="dogcard"
-        >
-          <h1>
-            Meet 
-            Eileen
-          </h1>
-          <img
-            class="card-image"
-            src="https://placedog.net/500?id=4"
-          />
-          <p>
-            Eileen
-             is a(n) 
-            2
-             year old 
-            American Boxer
-          </p>
-        </div>
-      </a>
-      <a
-        href="/dogs/14"
-      >
-        <div
-          class="dogcard"
-        >
-          <h1>
-            Meet 
-            Eyes
-          </h1>
-          <img
-            class="card-image"
-            src="https://placedog.net/500?id=22"
-          />
-          <p>
-            Eyes
-             is a(n) 
-            4
-             year old 
-            Weimaraner Mix
+            Cocker-spaniel
           </p>
         </div>
       </a>
@@ -129,179 +83,18 @@ exports[`Dogs should display all dogs 1`] = `
         >
           <h1>
             Meet 
-            Franny
+            Zach
           </h1>
           <img
             class="card-image"
-            src="https://placedog.net/500?id=51"
+            src="https://placedog.net/1000/563?id=118"
           />
           <p>
-            Franny
+            Zach
              is a(n) 
-            4
+            6
              year old 
-            French Bulldog
-          </p>
-        </div>
-      </a>
-      <a
-        href="/dogs/16"
-      >
-        <div
-          class="dogcard"
-        >
-          <h1>
-            Meet 
-            Ginny
-          </h1>
-          <img
-            class="card-image"
-            src="https://images.pexels.com/photos/5886866/pexels-photo-5886866.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-          />
-          <p>
-            Ginny
-             is a(n) 
-            0
-             year old 
-            Golden Retriever
-          </p>
-        </div>
-      </a>
-      <a
-        href="/dogs/11"
-      >
-        <div
-          class="dogcard"
-        >
-          <h1>
-            Meet 
-            Happy
-          </h1>
-          <img
-            class="card-image"
-            src="https://placedog.net/500?id=21"
-          />
-          <p>
-            Happy
-             is a(n) 
-            11
-             year old 
-            French Bulldog
-          </p>
-        </div>
-      </a>
-      <a
-        href="/dogs/9"
-      >
-        <div
-          class="dogcard"
-        >
-          <h1>
-            Meet 
-            Liliana
-          </h1>
-          <img
-            class="card-image"
-            src="https://placedog.net/500?id=5"
-          />
-          <p>
-            Liliana
-             is a(n) 
-            1
-             year old 
-            Husky
-          </p>
-        </div>
-      </a>
-      <a
-        href="/dogs/5"
-      >
-        <div
-          class="dogcard"
-        >
-          <h1>
-            Meet 
-            Melba
-          </h1>
-          <img
-            class="card-image"
-            src="https://placedog.net/500?id=8"
-          />
-          <p>
-            Melba
-             is a(n) 
-            4
-             year old 
-            Austrailian Cattle Dog
-          </p>
-        </div>
-      </a>
-      <a
-        href="/dogs/17"
-      >
-        <div
-          class="dogcard"
-        >
-          <h1>
-            Meet 
-            Mrs. Weasley
-          </h1>
-          <img
-            class="card-image"
-            src="https://placedog.net/1000/563?id=3"
-          />
-          <p>
-            Mrs. Weasley
-             is a(n) 
-            3
-             year old 
-            Golden Retriever
-          </p>
-        </div>
-      </a>
-      <a
-        href="/dogs/15"
-      >
-        <div
-          class="dogcard"
-        >
-          <h1>
-            Meet 
-            Pugilicious
-          </h1>
-          <img
-            class="card-image"
-            src="https://placedog.net/500?id=26"
-          />
-          <p>
-            Pugilicious
-             is a(n) 
-            12
-             year old 
-            Pug
-          </p>
-        </div>
-      </a>
-      <a
-        href="/dogs/6"
-      >
-        <div
-          class="dogcard"
-        >
-          <h1>
-            Meet 
-            Ron
-          </h1>
-          <img
-            class="card-image"
-            src="https://images.pexels.com/photos/6246667/pexels-photo-6246667.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-          />
-          <p>
-            Ron
-             is a(n) 
-            0
-             year old 
-            Golden Retriever
+            German Shepard
           </p>
         </div>
       </a>

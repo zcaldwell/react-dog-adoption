@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Dogdetail.css';
 
-export default function DogDetail({ age, name, image, breed, bio, handleEdit, handleHistory }) {
+export default function DogDetail({ age, name, image, breed, bio, handleEdit, handleDelete }) {
   const dogAge = () => {
     if (age === 0) {
       return 'a less than a year';
@@ -20,6 +20,7 @@ export default function DogDetail({ age, name, image, breed, bio, handleEdit, ha
       <p>{bio}</p>
       <div>
         <button onClick={handleEdit}>Edit</button>
+        <button onClick={handleDelete}>Delete</button>
       </div>
     </div>
   );

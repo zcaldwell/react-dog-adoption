@@ -24,8 +24,13 @@ export default function Edit() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await updateDog(dog);
-    history.push(`/dogs/${params.id}`);
+    try {
+      await updateDog(dog);
+      alert('Success!');
+      history.push(`/dogs/${params.id}`);
+    } catch {
+      alert('Failed');
+    }
   };
 
   return (

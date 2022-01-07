@@ -1,13 +1,13 @@
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import Dogs from './Dogs';
+import Admin from './Admin';
 
 test('Dogs should display all dogs', async () => {
   const { container } = render(
     <MemoryRouter>
-      <Dogs />
+      <Admin />
     </MemoryRouter>
   );
-  await screen.findByText('Meet Ciri');
+  await screen.findByText('Name');
   expect(container).toMatchSnapshot();
 });

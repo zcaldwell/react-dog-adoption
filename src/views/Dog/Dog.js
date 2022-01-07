@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { fetchDogById } from '../../services/dogs';
+import { fetchDogById, deleteDog } from '../../services/dogs';
 import DogDetail from '../../components/DogDetail';
 import { useParams, useHistory } from 'react-router-dom';
 
@@ -23,11 +23,22 @@ export default function Dog() {
     history.push(`/dogs/${params.id}/edit`);
   };
 
+  const handleDelete = async (e) => {
+    e.preventDefault();
+    try {
+      await deleteDog(params.id);
+      alert('Success!');
+      history.push(`/dogs/`);
+    } catch {
+      alert('Failed');
+    }
+  };
+
   if (loading) return <h1>Dog Is Loading</h1>;
 
   return (
     <div>
-      <DogDetail {...dog} handleEdit={handleEdit} />
+      <DogDetail {...dog} handleEdit={handleEdit} handleDelete={handleDelete} />
     </div>
   );
 }
